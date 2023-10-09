@@ -1,0 +1,60 @@
+.calc{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    width: 300px;
+    height: 500px;
+}
+.row{
+    display: flex;
+}
+.calc .display{
+    width: 100%;
+    height: 90px;
+    background-color:gray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.calc .buttons{
+    background-color: red;
+    width: 300px;
+    margin-top: 20px;
+}
+.calc .buttons .col{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: grey;
+    color: black;
+    width:75px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.calc .buttons .col:hover{
+    background-color: gray;
+    color: orange;
+}
+.calc .buttons .clear{
+    width: 100%;
+    color: black; 
+    font-size: 20px;
+}
+.calc .buttons .clear:hover{
+    background-color: orange;
+}
+.calc .buttons .symbol{
+    color: black;
+    font-size: 20px;
+}
+.calc .buttons .symbol:hover{
+    background-color: orange;
+}
